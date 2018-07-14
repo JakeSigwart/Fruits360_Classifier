@@ -18,6 +18,8 @@ Where 'old_path' is the file location where the dataset was installed. New_path 
 
 ## Performance
 The training was done on an NVIDIA GEFORCE GTX 1060. It consisted of 400 batches of 64 images each. The amounts to 25,600 images total. During training, images were randomly distorted to increase the effective size of the dataset. The optimization function is AdamOptimizer with learning_rate=1e-4.
+The accuracy results for the training session are shown below.
 
-![alt text]()
+![alt text](https://github.com/JakeSigwart/Fruits360_Classifier/blob/master/train_acc_plot.png)
 
+Accuracy was quite low for the testing dataset.
